@@ -136,6 +136,3 @@ git reset --hard
 
 Undoes all commit changes and dependencies, like doing a hard reset.
 
-## External Resource
-
-![[17+-+Git+do+básico+ao+avançado (1).pdf]]
