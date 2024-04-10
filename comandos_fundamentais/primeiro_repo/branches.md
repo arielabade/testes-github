@@ -113,7 +113,11 @@ git tag
 
 ### Alterando tags
 
+<<<<<<< HEAD
 Para mostrar detalhes da tag
+=======
+Para mostrar dettalhes 
+>>>>>>> f0164a6652d03e270b7df3a77cd28c965d1895db
 
 ```
 git show <tag>
