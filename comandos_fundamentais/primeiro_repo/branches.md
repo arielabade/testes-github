@@ -62,17 +62,71 @@ Prosseguir com outra solução, mas não perder o código que fez atté agora.
 git stash
 ```
 
-Voltta para o commit anterior mas salva as alterações feitas até agora
+Volta para o commit anterior mas salva as alterações feitas até agora
 
 ### Recuperando stash
 
+1) Gerar uma lista de stashes com uma lista de arquivos salvos em stash.
+
+```
+git stash list
+```
+
+2) Depois de saber qual arquivo você quer recuperar, basta executar
+
+```
+git stash <name>
+```
 
 ### Removendo stash
 
+1) Ver quais a lista de stashes
+
+```
+git stash list
+```
+
+2) Remover de acordo com a indexação
+
+```
+git stash drop 3
+```
+
+obs: dificilmente você remove algo, para manter o histórico de criação
 
 ### Criando tags
 
+O intuito de criar uma tag é ter controle do projeto para entender o que está ocorrendo com a branch. Marca os estágios de desenvolvimento e é muito utilizado em gerenciamento de projetos.
+
+```
+git tag -a <nome> -m "<msg>"
+```
+
+obs: tag não é stash
+obs: geralmente  a elaboração de tags é bem definida, com o intuito de evitar redundância.
+
+Para listar as tags
+
+```
+git tag
+```
+
 ### Alterando tags
 
+Para mostrar detalhes da tag
 
+```
+git show <tag>
+```
 
+A tag funciona como um marco dentro da branch. Então, atráves do
+
+```
+git checkoutt <tagName>
+```
+
+É possível voltar para um estado anterior ao da branch.
+
+Isso é extremamente útil. Você altera a tag de acordo com seu fluxo de projeto
+
+gi
