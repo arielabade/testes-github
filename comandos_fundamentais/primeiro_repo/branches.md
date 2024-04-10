@@ -40,10 +40,39 @@ Salve todas as alterações necessárias antes de mudar de branch.
 
 Unir uma branch com a branch de outro desenvolvedor ou com a master
 
+1) Escolha a branch de destino
+
 ```
-git merge
+gitt checkout master
 ```
 
+2) Escolha a branch que você deseja unir
+
+```
+git merge first_branch
+```
+
+3) Caso existam conflittos, resolva
+
+### Stash
+
+Prosseguir com outra solução, mas não perder o código que fez atté agora.
+
+```
+git stash
+```
+
+Voltta para o commit anterior mas salva as alterações feitas até agora
+
+### Recuperando stash
+
+
+### Removendo stash
+
+
+### Criando tags
+
+### Alterando tags
 
 
 
