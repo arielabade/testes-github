@@ -105,9 +105,14 @@ git tag -a <nome> -m "<msg>"
 obs: tag não é stash
 obs: geralmente  a elaboração de tags é bem definida, com o intuito de evitar redundância.
 
+Para listar as tags
 
+```
+git tag
+```
 
 ### Alterando tags
 
+Para mostrar dettalhes 
 
 
