@@ -48,3 +48,23 @@ git remote rm origin
 ## Submodules
 
 Ter dois ou mais projetos em um repositório só.
+
+É possível adicionar uma dependência ao projeto atual, mantendo suas estrutura separadas.
+
+É bom utilizar esse comando para criar dependências específicas do projeto.
+
+```
+git submodule add <repo>
+```
+
+Para listar ttodos os submodulos
+
+```
+git submodule
+```
+
+Para atualizar o submodulo:
+
+```
+git push ---recurse-subomoddules=on-demand
+```
