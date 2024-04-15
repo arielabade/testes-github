@@ -12,9 +12,8 @@ Quando o commit não é objetivo com relação as atualizações que ele propõe
 
 ##### Boas práticas
 
-- Padronizar os commits
+- Padronizar os commits de acordo com as ações da sua rotina
 - Não realize commits separados que poderiam ser um commit só
-- 
 
 
 ##### Private branches
@@ -38,10 +37,18 @@ Apertando ```x!``` O commit é salvo no rebase
 
 E a partiir disso você pode adicionar novos comentários nos seus commits
 
-
-
 Leve apenas os commits que vão ser importante para revisão
 
 - Dar git checkout na branch que você deseja subir as alterações da funcionalidade
 
 Crie uma branch privada para o seu trabalho pessoal, que não será compartilhada no repositório final
+
+##### Como escrever bons commits?
+
+- Separar o assunto da mensagem
+- Assunto: máximo de 50 caracteres, letra inicial maiúscula
+- Comentários do commit: máximo de 72 caracteres, descritivo e objetivo
+- Explicar o por que e como do commit
+- Estabelecer um timestamp do commit
+- Estabelecer uma marcação de onde aquele projeto parou
+
