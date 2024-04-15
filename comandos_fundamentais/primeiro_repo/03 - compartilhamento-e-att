@@ -57,7 +57,7 @@ Ter dois ou mais projetos em um repositório só.
 git submodule add <repo>
 ```
 
-Para listar ttodos os submodulos
+Para listar todos os submodulos
 
 ```
 git submodule
