@@ -67,7 +67,11 @@ OBS: é mais interessantes para projetos pequenos, por que não possui algumas f
 
 Descrição longa do projeto.
 
-- Conhecimento:
-- Forúm:
-- Documentação:
+- Conhecimento: é mais fácil reter conhecimento sobre as tecncologias utilizadas no projeto nesse contexto.
+- Forúm: serve como um fórum de discussão para desenvolvedores inseridos no projeto.
+- Documentação: documentação de bugs e do desenvolvimento do projeto.
+
+## Dados do Projeto (Insights)
+
+- Métricas: contriibuidorees, commits, forks, evolução do projeto.
 
